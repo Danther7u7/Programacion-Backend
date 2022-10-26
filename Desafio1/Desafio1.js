@@ -28,10 +28,6 @@ class Usuario {
         }
         return console.log(listLibros)
     }
-
-    mostrarTodo() {
-        return console.log(this.nombre, this.apellido, this.libros, this.mascotas)
-    }
 }
 
 let p1 = new Usuario("Daniel", "Hevias", {autor:"Matias", nombre:"Libro1"}, ["perro", "gato"])
@@ -48,7 +44,7 @@ p1.addBook("Daniel", "Libro2")
 p1.addBook("Diego", "Libro3")
 console.log("Nombres de libros: ")
 p1.getBookNames()
-console.log(p1)
+
 
 
 
