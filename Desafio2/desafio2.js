@@ -74,8 +74,8 @@ productos.save({
     "https://clsonyb2c.vtexassets.com/arquivos/ids/428948/PS5_Fisica_DS.jpg?v=1752333917",
 });
 productos.save({
-  title: "Globo Terráqueo",
-  price: 345.67,
+  title: "Nintendo Switch",
+  price: 250,
   thumbnail:
     "https://falabella.scene7.com/is/image/Falabella/8014962_1?wid=800&hei=800&qlt=70",
 });
